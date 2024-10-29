@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">New Life</string>
+    <string name="radio_new_life">New Life Radio</string>
+    <string name="christian_radio">Christian radio</string>
+    <string name="write_to_air">Write on the air</string>
+    <string name="app_not_instaled">Application ${name} is not installed!</string>
+    <string name="notification">Notifications</string>
+    <string name="faith_hope_love">Faith, hope, love</string>
+    <string name="on_air">Air: ${name}</string>
+    <string name="good_quality">Good\nquality</string>
+    <string name="high_quality">High\nquality</string>
+    <string name="generic_error" translatable="false">The application has encountered an unexpected error.</string>
+    <string name="error_media_not_found" >No connection to the server. Click on the fish to reconnect</string>
+    <string name="data_not_found" >There is no data to display</string>
+    <!-- Allowed caller template -->
+    <string name="allowed_caller_log" translatable="false">
+        Caller has a valid certificate, but its package doesn\'t match any expected package for the
+        given certificate. To allow this caller, add the following to the allowed callers list:\n
+        <![CDATA[
+        <signature name=\"${name}\" package=\"${pack}\">\n\t<key>${key}</key>\n</signature>\n
+        ]]>
+    </string>
+    <!-- Cast menu item -->
+    <string name="media_route_menu_title" translatable="false">Cast</string>
+    <string name="playlist_button">Playlist</string>
+</resources>

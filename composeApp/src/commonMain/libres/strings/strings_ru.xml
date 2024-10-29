@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Новая Жизнь</string>
+    <string name="radio_new_life">Радио новая жизнь</string>
+    <string name="christian_radio">Христианское радио</string>
+    <string name="write_to_air">Написать в эфир</string>
+    <string name="app_not_instaled">Приложение ${name} не установлено!</string>
+    <string name="notification">Уведомления</string>
+    <string name="faith_hope_love">Вера, надежда, любовь</string>
+    <string name="on_air">В эфире: ${name}</string>
+    <string name="good_quality">Хорошее\nкачество</string>
+    <string name="high_quality">Высокое\nкачество</string>
+    <string name="generic_error" translatable="false">The application has encountered an unexpected error.</string>
+    <string name="error_media_not_found" >Нет соединения с сервером. Нажмите на рыбку для переподключения</string>
+    <string name="playlist_button">Плейлист</string>
+    <string name="data_not_found" >Нет данных</string>
+</resources>

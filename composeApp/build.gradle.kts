@@ -7,7 +7,15 @@ plugins {
     alias(libs.plugins.compose.compiler)
     alias(libs.plugins.compose)
     alias(libs.plugins.android.application)
+    alias(libs.plugins.libres)
+    alias(libs.plugins.buildConfig)
     alias(libs.plugins.kotlinx.serialization)
+}
+libres {
+    generatedClassName = "MainRes"
+//    generateNamedArguments = false // false by default
+    baseLocaleLanguageCode = "ru" // "en" by default
+//    camelCaseNamesForAppleFramework = false // false by default
 }
 
 kotlin {
@@ -19,10 +27,10 @@ kotlin {
 
     jvm()
 
-    js {
-        browser()
-        binaries.executable()
-    }
+//    js {
+//        browser()
+//        binaries.executable()
+//    }
 
     listOf(
         iosX64(),
@@ -57,6 +65,9 @@ kotlin {
             implementation(libs.koin.compose)
             implementation(libs.kstore)
             implementation(libs.kotlinx.datetime)
+            implementation(libs.libres)
+            implementation(libs.insetsx)
+           // implementation(libs.skiko)
         }
 
         commonTest.dependencies {
@@ -79,10 +90,10 @@ kotlin {
             implementation(libs.ktor.client.okhttp)
         }
 
-        jsMain.dependencies {
-            implementation(compose.html.core)
-            implementation(libs.ktor.client.js)
-        }
+//        jsMain.dependencies {
+//            implementation(compose.html.core)
+//            implementation(libs.ktor.client.js)
+//        }
 
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)
@@ -128,3 +139,7 @@ compose.desktop {
         }
     }
 }
+
+//tasks.getByPath("desktopProcessResources").dependsOn("libresGenerateResources")
+//tasks.getByPath("desktopSourcesJar").dependsOn("libresGenerateResources")
+//tasks.getByPath("jsProcessResources").dependsOn("libresGenerateResources")

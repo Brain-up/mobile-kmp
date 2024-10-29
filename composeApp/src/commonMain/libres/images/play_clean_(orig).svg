@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="SvgjsSvg1001"
+   width="288"
+   height="288"
+   version="1.1"
+   sodipodi:docname="play_clean_(orig).svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.3177389"
+     inkscape:cx="132.67241"
+     inkscape:cy="116.27712"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="SvgjsSvg1001" />
+  <defs
+     id="SvgjsDefs1002" />
+  <rect
+     width="36"
+     height="13.5"
+     x="234"
+     y="265.5"
+     fill="#ffa45c"
+     class="color57a4ff svgShape"
+     id="rect1"
+     style="stroke-width:0.5625" />
+  <rect
+     width="36"
+     height="13.5"
+     x="18"
+     y="265.5"
+     fill="#ffa45c"
+     class="color57a4ff svgShape"
+     id="rect2"
+     style="stroke-width:0.5625" />
+  <polygon
+     fill="#ffa45c"
+     points="368,248 40,248 40,296 368,296 392,296 472,296 472,248 392,248 "
+     class="color57a4ff svgShape"
+     id="polygon2"
+     transform="scale(0.5625)" />
+  <circle
+     cx="54"
+     cy="216"
+     r="31.501686"
+     fill="#ffa45c"
+     class="color57a4ff svgShape"
+     id="circle2"
+     style="stroke-width:0.5625" />
+  <rect
+     width="166.5"
+     height="63"
+     x="99"
+     y="184.5"
+     fill="#ffa45c"
+     class="color57a4ff svgShape"
+     id="rect3"
+     style="stroke-width:0.5625" />
+  <rect
+     width="18"
+     height="13.5"
+     x="31.5"
+     y="108"
+     fill="#ffa45c"
+     class="color57a4ff svgShape"
+     id="rect4"
+     style="stroke-width:0.5625" />
+  <path
+     fill="#5d5d5a"
+     d="M 279,117 H 54 v -9 c 0,-2.48528 -2.014719,-4.5 -4.5,-4.5 H 45 V 54 c 0,-5.999997 -9,-5.999997 -9,0 v 49.5 h -4.5 c -2.485281,0 -4.5,2.01472 -4.5,4.5 v 9 H 9 c -2.4852814,0 -4.5,2.01472 -4.5,4.5 v 144 c 0,2.48528 2.0147186,4.5 4.5,4.5 h 4.5 v 9 c 0,2.48528 2.014719,4.5 4.5,4.5 h 36 c 2.485281,0 4.5,-2.01472 4.5,-4.5 v -9 h 171 v 9 c 0,2.48528 2.01472,4.5 4.5,4.5 h 36 c 2.48528,0 4.5,-2.01472 4.5,-4.5 v -9 h 4.5 c 2.48528,0 4.5,-2.01472 4.5,-4.5 v -144 c 0,-2.48528 -2.01472,-4.5 -4.5,-4.5 z M 36,112.5 h 9 v 4.5 h -9 z m 13.5,162 h -27 V 270 h 27 z m 216,0 h -27 V 270 h 27 z m 9,-13.5 H 13.5 V 126 h 125.47125 l 1.00125,2.01375 c 1.66164,3.31525 6.39336,3.31525 8.055,0 L 149.02875,126 H 274.5 Z"
+     class="color004fac svgShape"
+     id="path4"
+     style="stroke-width:0.5625"
+     sodipodi:nodetypes="scsscsscsscsssscssssccsssscsssscccccccccccccccccccccccc" />
+  <path
+     fill="#5d5d5a"
+     d="m 265.5,135 h -243 a 4.5,4.5 0 0 0 -4.5,4.5 v 27 a 4.5,4.5 0 0 0 4.5,4.5 h 243 a 4.5,4.5 0 0 0 4.5,-4.5 v -27 a 4.5,4.5 0 0 0 -4.5,-4.5 z m -63,13.5 H 36 a 4.5,4.5 0 0 0 0,9 H 202.5 V 162 H 27 V 144 H 202.5 Z M 216,162 h -4.5 v -18 h 4.5 z m 45,0 h -36 v -4.5 h 27 a 4.5,4.5 0 0 0 0,-9 H 225 V 144 h 36 z M 28.544062,190.54406 a 36,36 0 1 0 50.911876,0 35.764313,35.764313 0 0 0 -50.911876,0 z m 44.547188,44.55 a 26.989312,26.989312 0 1 1 -3.452063,-41.09569 l -6.093562,6.09188 a 4.5,4.5 0 1 0 6.364125,6.36356 L 76.006125,200.358 A 26.996625,26.996625 0 0 1 73.09125,235.09181 Z M 265.5,180 H 99 a 4.5,4.5 0 0 0 -4.5,4.5 v 63 A 4.5,4.5 0 0 0 99,252 h 166.5 a 4.5,4.5 0 0 0 4.5,-4.5 v -63 A 4.5,4.5 0 0 0 265.5,180 Z M 261,243 H 103.5 V 189 H 261 Z"
+     class="color004fac svgShape"
+     id="path5"
+     style="stroke-width:0.5625" />
+  <path
+     fill="#5d5d5a"
+     d="m 117,220.5 h 130.5 c 6,0 6,-9 0,-9 H 117 c -6,0 -6,9 0,9 z m 0,-13.5 h 130.5 c 6,0 6,-9 0,-9 H 117 c -6,0 -6,9 0,9 z m 0,27 h 130.5 c 6,0 6,-9 0,-9 H 117 c -6,0 -6,9 0,9 z"
+     class="color004fac svgShape"
+     id="path6"
+     style="stroke-width:0.5625"
+     sodipodi:nodetypes="sssssssssssssss" />
+</svg>

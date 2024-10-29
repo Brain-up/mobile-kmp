@@ -15,14 +15,25 @@ import androidx.compose.ui.unit.dp
 import brainup.composeapp.generated.resources.*
 import brn.mobile.brnmobile.theme.AppTheme
 import brn.mobile.brnmobile.theme.LocalThemeIsDark
+
+import brn.mobile.brnmobile.ui.scr1.SplashScreen
+import cafe.adriel.voyager.navigator.LocalNavigator
+import cafe.adriel.voyager.navigator.Navigator
+import cafe.adriel.voyager.navigator.currentOrThrow
 import kotlinx.coroutines.isActive
 import kotlinx.serialization.json.JsonNames
 import org.jetbrains.compose.resources.Font
 import org.jetbrains.compose.resources.stringResource
 import org.jetbrains.compose.resources.vectorResource
 
+
+
 @Composable
 internal fun App() = AppTheme {
+    var showPreview by remember { mutableStateOf(false) }
+    if (showPreview) {
+        SplashScreen.Scr1()
+    }
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -32,7 +43,6 @@ internal fun App() = AppTheme {
     ) {
         Text(
             text = stringResource(Res.string.cyclone),
-            fontFamily = FontFamily(Font(Res.font.IndieFlower_Regular)),
             style = MaterialTheme.typography.displayLarge
         )
 
@@ -93,7 +103,10 @@ internal fun App() = AppTheme {
         val uriHandler = LocalUriHandler.current
         TextButton(
             modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp).widthIn(min = 200.dp),
-            onClick = { uriHandler.openUri("https://github.com/terrakok") },
+            onClick = {
+                showPreview = true
+//                uriHandler.openUri("https://github.com/terrakok")
+                      },
         ) {
             Text(stringResource(Res.string.open_github))
         }
