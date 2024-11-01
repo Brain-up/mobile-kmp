@@ -67,7 +67,6 @@ kotlin {
             implementation(libs.kotlinx.datetime)
             implementation(libs.libres)
             implementation(libs.insetsx)
-           // implementation(libs.skiko)
         }
 
         commonTest.dependencies {
@@ -78,6 +77,7 @@ kotlin {
         }
 
         androidMain.dependencies {
+            implementation("androidx.compose.ui:ui-tooling-preview:1.7.0-beta01")
             implementation(compose.uiTooling)
             implementation(libs.androidx.activityCompose)
             implementation(libs.kotlinx.coroutines.android)
@@ -85,6 +85,7 @@ kotlin {
         }
 
         jvmMain.dependencies {
+            implementation("androidx.compose.ui:ui-tooling-preview:1.7.0-beta01")
             implementation(compose.desktop.currentOs)
             implementation(libs.kotlinx.coroutines.swing)
             implementation(libs.ktor.client.okhttp)
