@@ -15,7 +15,7 @@ ktor = "3.0.0-beta-2"
 composeIcons = "1.1.0"
 kotlinx-serialization = "1.7.2"
 multiplatformSettings = "1.2.0"
-koin = "4.0.0-RC2"
+koin = "4.0.0"
 kstore = "0.8.0"
 datetime= "0.6.1"
 libres = "1.2.2"
@@ -33,6 +33,8 @@ skiko-ios = { module = "org.jetbrains.skiko:skiko-ios", version.ref = "skikoIos"
 skiko-iosarm64 = { module = "org.jetbrains.skiko:skiko-iosarm64", version.ref = "skikoIos" }
 skiko-iosx64 = { module = "org.jetbrains.skiko:skiko-iosx64", version.ref = "skikoIos" }
 voyager-navigator = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyager" }
+voyager-screenmodel = { module = "cafe.adriel.voyager:voyager-screenmodel", version.ref = "voyager" }
+voyager-koin = { module = "cafe.adriel.voyager:voyager-koin", version.ref = "voyager" }
 coil = { module = "io.coil-kt.coil3:coil-compose-core", version.ref = "coil" }
 coil-network-ktor = { module = "io.coil-kt.coil3:coil-network-ktor3", version.ref = "coil" }
 napier = { module = "io.github.aakira:napier", version.ref = "napier" }

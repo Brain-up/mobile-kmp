@@ -26,7 +26,7 @@ import brainup.composeapp.generated.resources.scr1_rectangle_15
 import brainup.composeapp.generated.resources.scr1_rectangle_16
 import brainup.composeapp.generated.resources.scr1_rectangle_378
 import brainup.composeapp.generated.resources.scr1_rectangle_379
-import brainup.composeapp.generated.resources.scr1_vector
+import brainup.composeapp.generated.resources.snailvector
 import brn.mobile.brnmobile.montserrat
 import brn.mobile.brnmobile.openSans
 import brn.mobile.brnmobile.reenieBeanie
@@ -474,7 +474,7 @@ fun BrainUP(modifier: Modifier = Modifier) {
 @Composable
 fun Vector(modifier: Modifier = Modifier) {
     RelayVector(
-        vector = painterResource(Res.drawable.scr1_vector),
+        vector = painterResource(Res.drawable.snailvector),
         modifier = modifier.fillMaxWidth(1.0f).fillMaxHeight(1.0f)
     )
 }

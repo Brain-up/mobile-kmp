@@ -51,6 +51,8 @@ kotlin {
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
             implementation(libs.voyager.navigator)
+            implementation(libs.voyager.screenmodel)
+            implementation(libs.voyager.koin)
             implementation(libs.coil)
             implementation(libs.coil.network.ktor)
             implementation(libs.napier)
