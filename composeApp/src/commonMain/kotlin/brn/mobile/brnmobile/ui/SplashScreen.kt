@@ -85,7 +85,7 @@ internal object SplashScreen : Screen {
                     contentScale = ContentScale.Fit
                 )
                 Text(
-                    MainRes.string.app_name.uppercase(), //stringResource(id = R.string.christian_radio).uppercase(),
+                    MainRes.string.app_name,
                     color = MaterialTheme.colorScheme.primary,
                     fontSize = 22.0.sp,
                     fontFamily = FontFamily.SansSerif,

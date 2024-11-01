@@ -32,6 +32,7 @@ import brainup.composeapp.generated.resources.snailvector
 import brn.mobile.brnmobile.montserrat
 import brn.mobile.brnmobile.openSans
 import brn.mobile.brnmobile.reenieBeanie
+import brn.mobile.brnmobile.ui.scr1.Scr1a
 import brn.mobile.brnmobile.ui.scr1.utils.BoxScopeInstanceImpl.align
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.core.screen.ScreenKey
@@ -46,7 +47,7 @@ internal object LoginScreen : Screen {
     @Composable
     override fun Content() {
         val navigator = LocalNavigator.currentOrThrow
-        Scr1()
+        Scr1a()
     }
 
     @Composable

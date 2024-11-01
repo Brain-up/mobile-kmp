@@ -2,12 +2,15 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
-import java.awt.Dimension
 import brn.mobile.brnmobile.App
+import brn.mobile.brnmobile.MainRes
+import brn.mobile.brnmobile.di.initKoin
+import java.awt.Dimension
 
 fun main() = application {
+    initKoin(emptyList())
     Window(
-        title = "BrainUp",
+        title = MainRes.string.app_name,
         state = rememberWindowState(width = 800.dp, height = 600.dp),
         onCloseRequest = ::exitApplication,
     ) {
