@@ -1,5 +1,19 @@
 # Compose Multiplatform Application
 
+### Overview
+This application is designed to evaluate the feasibility of rapid development for multiplatform applications. It leverages RelayFigma for the user interface and a Swagger-generated OpenAPI Ktor client for the backend.
+
+### Features
+Multiplatform Support: Develop once, deploy across multiple platforms.
+UI Design with RelayFigma: Seamless integration with Figma for efficient UI design and updates.
+Backend Integration: Utilizes a Swagger-generated OpenAPI Ktor client for robust backend communication.
+
+### Technologies Used
+
+* RelayFigma: A tool for integrating Figma designs directly into your application.
+* Swagger: Used to generate the OpenAPI client for Ktor, ensuring consistent and reliable backend communication.
+* Ktor: A framework for building asynchronous servers and clients in connected systems.
+
 ## Before running!
  - check your system with [KDoctor](https://github.com/Kotlin/kdoctor)
  - install JDK 17 or higher on your machine
